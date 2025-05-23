@@ -33,6 +33,7 @@ ScaffoldingReadMe.txt
 
 # NuGet Packages
 *.nupkg
+*.vsidx
 # NuGet Symbol Packages
 *.snupkg
 
