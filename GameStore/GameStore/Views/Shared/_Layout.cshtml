@@ -1,6 +1,6 @@
 ﻿@using Microsoft.AspNetCore.Identity
 @inject UserManager<GameStore.Models.GameStoreUser> UserManager
-
+@inject SignInManager<GameStore.Models.GameStoreUser> SignInManager
 
 @{
     var user = await UserManager.GetUserAsync(User);
