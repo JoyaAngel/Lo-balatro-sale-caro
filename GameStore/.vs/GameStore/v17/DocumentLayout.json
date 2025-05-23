@@ -1,7 +1,24 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\PC WHITE WOLF\\Documents\\Escuela\\Sexto semestre\\Desarrollo de aplicaciones web\\Lo-balatro-sale-caro\\GameStore\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Lo-balatro-sale-caro\\GameStore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A7E4E7D7-9A46-44B3-8415-461898FC1355}|GameStore\\GameStore.csproj|c:\\users\\usuario\\documents\\appsweb\\lo-balatro-sale-caro\\gamestore\\gamestore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7E4E7D7-9A46-44B3-8415-461898FC1355}|GameStore\\GameStore.csproj|solutionrelative:gamestore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7E4E7D7-9A46-44B3-8415-461898FC1355}|GameStore\\GameStore.csproj|c:\\users\\usuario\\documents\\appsweb\\lo-balatro-sale-caro\\gamestore\\gamestore\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7E4E7D7-9A46-44B3-8415-461898FC1355}|GameStore\\GameStore.csproj|solutionrelative:gamestore\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7E4E7D7-9A46-44B3-8415-461898FC1355}|GameStore\\GameStore.csproj|c:\\users\\usuario\\documents\\appsweb\\lo-balatro-sale-caro\\gamestore\\gamestore\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7E4E7D7-9A46-44B3-8415-461898FC1355}|GameStore\\GameStore.csproj|solutionrelative:gamestore\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7E4E7D7-9A46-44B3-8415-461898FC1355}|GameStore\\GameStore.csproj|c:\\users\\usuario\\documents\\appsweb\\lo-balatro-sale-caro\\gamestore\\gamestore\\gamestore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A7E4E7D7-9A46-44B3-8415-461898FC1355}|GameStore\\GameStore.csproj|solutionrelative:gamestore\\gamestore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +26,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Lo-balatro-sale-caro\\GameStore\\GameStore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "GameStore\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Lo-balatro-sale-caro\\GameStore\\GameStore\\Views\\Shared\\_Layout.cshtml*",
+              "RelativeToolTip": "GameStore\\Views\\Shared\\_Layout.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-23T15:29:01.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameStore.csproj",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Lo-balatro-sale-caro\\GameStore\\GameStore\\GameStore.csproj",
+              "RelativeDocumentMoniker": "GameStore\\GameStore.csproj",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Lo-balatro-sale-caro\\GameStore\\GameStore\\GameStore.csproj",
+              "RelativeToolTip": "GameStore\\GameStore.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-23T15:15:25.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Lo-balatro-sale-caro\\GameStore\\GameStore\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "GameStore\\Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Lo-balatro-sale-caro\\GameStore\\GameStore\\Models\\Producto.cs",
+              "RelativeToolTip": "GameStore\\Models\\Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T15:18:27.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Lo-balatro-sale-caro\\GameStore\\GameStore\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "GameStore\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\AppsWeb\\Lo-balatro-sale-caro\\GameStore\\GameStore\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "GameStore\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T15:09:48.711Z"
             }
           ]
         }
