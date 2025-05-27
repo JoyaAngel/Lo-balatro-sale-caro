@@ -1,0 +1,44 @@
+﻿@model IEnumerable<GameStore.Models.Game>
+@{
+
+    ViewData["Title"] = "Juegos";
+
+    Layout = "_LayoutAdminLTE";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4">Listado de Juegos</h2>
+    <a asp-action="Create" class="btn btn-primary mb-3">Registrar Juegos</a>
+    <table class="table table-bordered table-hover">
+        <thead class="thead-dark">
+            <tr>
+                <th>Título</th>
+				<th>Género</th>
+				<th>Plataforma</th>
+				<th>Stock</th>
+                <th>Precio</th>
+                <th>Imagen</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Title</td>
+					<td>@item.Genre</td>
+					<td>@item.Platform</td>
+					<td>@item.Stock</td>
+                    <td>$@item.Price</td>
+                    <td>
+                        <img src="@item.ImageUrl" width="80" class="img-thumbnail" />
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Editar</a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger" onclick="return confirm('¿Desea eliminar este medicamento?')">Eliminar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
